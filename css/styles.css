@@ -1,0 +1,149 @@
+/* *********************************** ELEMENT SELECTORS **************************** */
+body{
+  font-family: "Montserrat";
+}
+
+h3 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 2.5rem;
+}
+
+
+/* *********************************** ID SELECTORS **************************** */
+
+#title{
+  background-color: #ff4c68;
+    color: white;
+}
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+
+}
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+#testimonials-carousel {
+  padding: 7% 15%;
+}
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+#cta {
+  background-color:  #ff4c68;
+  text-align: center;
+  padding: 6% 15%;
+  color: #fff
+}
+#footer {
+  padding: 5% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+/* *********************************** CLASS SELECTORS **************************** */
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* Navigation bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat-light", sans-serif;
+  font-size: 1.2rem;
+}
+.title-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 24%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+.features-icon {
+  color: #ef8172;
+   font-size: 4rem;
+}
+.features-icon:hover {
+  color: #ff4c68;
+}
+.features-heading {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 1.5rem;
+}
+.features-text {
+  color: #8f8f8f;
+}
+
+.testimonials-heading {
+  font-family: "Montserrat-black", sans-serif;
+  color: #fff;
+  font-size: 3rem;
+}
+.testimonials-images {
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.card-title-custom {
+  background-color: #e1e5ea;
+}
+.pricing-cards {
+  padding: 3% 2%;
+}
+.social-footer-icon {
+  padding: 2% 2%;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 1105px) {
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .title-heading {
+    font-size: 2rem;
+  }
+}
+.go-to-top-icon {
+  position: relative;
+  left: 65%;
+  top: 60px;
+}
